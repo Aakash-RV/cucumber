@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.425" tests="9" skipped="0" failures="8" errors="0" timestamp="2026-10-16T07:35:45.310939200Z">
+<testcase classname="User have to validate the login functionality for the adactin hotel application" name="User have to validate the login functionality by passing the valid username and valid password" time="11.702">
+<system-out><![CDATA[
+Given User have to validate the url of the login page.......................passed
+When user have to pass the valid username and valid password and click the login button.passed
+Then User have to validate the login........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login functionality for the adactin hotel application" name="User have to validate the functionality with different credentials - #1.3" time="12.225">
+<failure type="java.lang.AssertionError" message="expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at org.step.StepDefinition.userHaveToPassToCheckTheDashboard(StepDefinition.java:120)
+	at ✽.User have to pass to check the dashboard(file:///C:/Users/maran/eclipse-workspace/Aakash_cucumberProject/src/test/resources/FeatureFile/Login-order.feature:3)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to pass to check the dashboard..............................failed
+When user have to pass the "Aakash456" and "O8K54X" and click the login button.skipped
+And User have to search the hotel and click search..........................skipped
+And User have to select the hotel and click continue........................skipped
+And User have to fill the required details and click book...................skipped
+Then User have to generate the orderId......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login functionality for the adactin hotel application" name="User have to validate the functionality with different credentials - #1.1" time="12.257">
+<failure type="java.lang.AssertionError" message="expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at org.step.StepDefinition.userHaveToPassToCheckTheDashboard(StepDefinition.java:120)
+	at ✽.User have to pass to check the dashboard(file:///C:/Users/maran/eclipse-workspace/Aakash_cucumberProject/src/test/resources/FeatureFile/Login-order.feature:3)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to pass to check the dashboard..............................failed
+When user have to pass the "Aakash321" and "O8K54X" and click the login button.skipped
+And User have to search the hotel and click search..........................skipped
+And User have to select the hotel and click continue........................skipped
+And User have to fill the required details and click book...................skipped
+Then User have to generate the orderId......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login functionality for the adactin hotel application" name="User have to validate the functionality with different credentials - #1.4" time="12.051">
+<failure type="java.lang.AssertionError" message="expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at org.step.StepDefinition.userHaveToPassToCheckTheDashboard(StepDefinition.java:120)
+	at ✽.User have to pass to check the dashboard(file:///C:/Users/maran/eclipse-workspace/Aakash_cucumberProject/src/test/resources/FeatureFile/Login-order.feature:3)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to pass to check the dashboard..............................failed
+When user have to pass the "Aakash789" and "Aakash@789" and click the login button.skipped
+And User have to search the hotel and click search..........................skipped
+And User have to select the hotel and click continue........................skipped
+And User have to fill the required details and click book...................skipped
+Then User have to generate the orderId......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login functionality for the adactin hotel application" name="User have to validate the functionality with different credentials - #1.5" time="12.132">
+<failure type="java.lang.AssertionError" message="expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at org.step.StepDefinition.userHaveToPassToCheckTheDashboard(StepDefinition.java:120)
+	at ✽.User have to pass to check the dashboard(file:///C:/Users/maran/eclipse-workspace/Aakash_cucumberProject/src/test/resources/FeatureFile/Login-order.feature:3)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to pass to check the dashboard..............................failed
+When user have to pass the "" and "" and click the login button.............skipped
+And User have to search the hotel and click search..........................skipped
+And User have to select the hotel and click continue........................skipped
+And User have to fill the required details and click book...................skipped
+Then User have to generate the orderId......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login functionality for the adactin hotel application" name="User have to validate the functionality with different credentials - #1.2" time="12.224">
+<failure type="java.lang.AssertionError" message="expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at org.step.StepDefinition.userHaveToPassToCheckTheDashboard(StepDefinition.java:120)
+	at ✽.User have to pass to check the dashboard(file:///C:/Users/maran/eclipse-workspace/Aakash_cucumberProject/src/test/resources/FeatureFile/Login-order.feature:3)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to pass to check the dashboard..............................failed
+When user have to pass the "Aakash321" and "Aakash@321" and click the login button.skipped
+And User have to search the hotel and click search..........................skipped
+And User have to select the hotel and click continue........................skipped
+And User have to fill the required details and click book...................skipped
+Then User have to generate the orderId......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login functionality for the adactin hotel application" name="User have to validate the login functionality by passing the Invalid username and Invalid password" time="12.203">
+<failure type="java.lang.AssertionError" message="expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at org.step.StepDefinition.userHaveToVerifyTheDashboard(StepDefinition.java:111)
+	at ✽.User have to verify the dashboard(file:///C:/Users/maran/eclipse-workspace/Aakash_cucumberProject/src/test/resources/FeatureFile/DataTable.feature:44)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to validate the url of the login page.......................passed
+When user have to pass the Invalid username and Invalid password and click the login button.passed
+Then User have to verify the dashboard......................................failed
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login functionality for the adactin hotel application" name="User have to validate the login functionality by passing the valid username and Invalid password" time="12.063">
+<failure type="java.lang.AssertionError" message="expected [false] but found [https://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: expected [false] but found [https://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:644)
+	at org.step.StepDefinition.userHaveToValidateTheLoginPage(StepDefinition.java:91)
+	at ✽.User have to validate the login page(file:///C:/Users/maran/eclipse-workspace/Aakash_cucumberProject/src/test/resources/FeatureFile/DataTable.feature:34)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to validate the url of the login page.......................passed
+When user have to pass the valid username and Invalid password and click the login button.passed
+Then User have to validate the login page...................................failed
+]]></system-out>
+</testcase>
+<testcase classname="User have to validate the login functionality for the adactin hotel application" name="User have to validate the login functionality by passing the Invalid username and valid password" time="12.179">
+<failure type="java.lang.AssertionError" message="Url is invalid expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]">
+<![CDATA[java.lang.AssertionError: Url is invalid expected [https://adactinhotelapp.com/SearchHotel.php] but found [https://adactinhotelapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.step.StepDefinition.userHaveToVerifyLoginPage(StepDefinition.java:56)
+	at ✽.User have to verify login page(file:///C:/Users/maran/eclipse-workspace/Aakash_cucumberProject/src/test/resources/FeatureFile/DataTable.feature:25)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User have to validate the url of the login page.......................passed
+When user have to pass the Invalid username and valid password and click the login button.passed
+Then User have to verify login page.........................................failed
+]]></system-out>
+</testcase>
+</testsuite>
